@@ -8,6 +8,7 @@
     <title>Booksearch - KİTAPLAR</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="image/tt.png">
 
 
     <link rel="stylesheet" href="reset.css">
@@ -56,9 +57,10 @@
                         <span class="formShape"> <i class="fa fa-envelope-o fa-2x"></i> </span>
                         <input class="formField" type="email" placeholder="E-Mail" required>
                     </div>
+                    
                     <div>
                         <span class="formShape"> <i class="fa fa-mobile fa-2x"></i> </span>
-                        <input class="formField" type="text" placeholder="Telefon" required>
+                        <input class="formField" type="tel" placeholder="Telefon" pattern="[0-9]{10}" required> 
                     </div>
                     
                     
@@ -68,7 +70,7 @@
                     </div>
                     <div>
                         <span class="formShape"> <i class="fa fa-commenting-o fa-2x"></i> </span>
-                        <textarea class="formField" id=""  rows="8" placeholder="Mesaj"></textarea>
+                        <textarea class="formField" id=""  rows="8" placeholder="Mesaj" required></textarea>
                     </div>
                     <div class="formItem">
                         <input class="formBtn" type="submit" value="Gönder">

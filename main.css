@@ -30,6 +30,38 @@ h1 {
     letter-spacing: 2px;
     margin-bottom: 20px;
 }
+.sectionHeader1{
+    background: #523b1baf;
+    background: url("image/read.jpg") no-repeat  ;
+    height: 60px;
+    color: #ffffff;
+    display:inline-block;
+    line-height: 60px;
+    font-size: 20px;
+    margin-left: 325px;
+    padding: 30px 0px 10% 60%;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.sectionHeader1 h2{
+    margin-left: -570px;
+    margin-top: 45px;
+  
+}
+.sectionHeader1 p{
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    
+    
+}
 
 h3 {
     font-size: 16px;
@@ -50,6 +82,7 @@ h3 {
     width: 90%;
     margin: 0 auto;
     display: flex;
+    
 
 }
 
@@ -64,17 +97,59 @@ h3 {
 
 .engineBody .container {
     justify-content: space-between;
+    
+    
 }
 .engine .container {
     justify-content: space-between;
+    
 }
 .engine1 .container1 {
     justify-content: space-between;
     width: 15%;
+    
+}
+.engine2 .container2 {
+    justify-content: space-between;
+    width: 15%;
+    margin-left: 35%;
+    margin-top: -23.5%;
+    
+}
+.engine3 .container3 {
+    justify-content: space-between;
+    width: 36%;
+    margin-left: 38%;
+    margin-top: -23.5%;
+}
+.engine4 .container4 {
+    justify-content: space-between;
+    width: 36%;
+    margin-left: 60%;
+    margin-top: -24%;
 }
 .container1 .imageOver1{
-    width: 120%;
+    width: 95%;
     right: 0%;
+    margin-left: 60%;
+    margin-top: 25%;
+}
+.container2 .imageOver2{
+    width: 135%;
+    right: 0%;
+    margin-top: 25%;
+}
+.container3 .imageOver3{
+    width: 50%;
+    right: 0%;
+    margin-top: 40px;
+    
+}
+.container4 .imageOver4{
+    width: 50%;
+    right: 0%;
+    margin-top: 45px;
+    
 }
 .col2 {
     flex-grow: 1;
@@ -127,7 +202,7 @@ header .logo img {
  }   
  #mainCaption {
      height: 500px;
-     background: rgba(0,0,0, .3);
+     background: rgba(163, 140, 140, 0.3);
      
  }
 
@@ -151,8 +226,8 @@ header .logo img {
  }
  .zoom {
      position: relative;
-     overflow: hidden;
-     display: inline-block;
+     overflow: hidden; /* zoom yaptığımızda resimler taşmasın diye */
+     display: inline-block; 
      width: 100%;
      vertical-align: top;
 
@@ -180,7 +255,7 @@ header .logo img {
 
  .item:hover .zoom img 
  {
-     transform: scale(1.25);
+     transform: scale(1.25);/* dönüştürme efekti için */
 }
 .item:hover h3 {
     color: #ffffff;
@@ -196,7 +271,7 @@ header .logo img {
     padding: 5px 10px;
     text-decoration: none;
     border: 1px solid #bfbf69; 
-    transition: all .5s ease;
+    transition: all .5s ease;/* geçiş için */
     
  
     
@@ -210,15 +285,12 @@ header .logo img {
 }
 
 #parallax {
-    background: linear-gradient(
-                rgba(134, 132, 132, 0.7),
-                rgba(134, 132, 132, 0.7)
-                ),
-                url('../image/ktph.jpg');
+    background: linear-gradient(rgba(117, 113, 113, 0.258),rgba(102, 100, 100, 0.296)), url('../image/ktph.jpg');
                 background-attachment: fixed;
                 background-size: cover;
                 background-position: center;
                 text-align: center;
+                
 }
 #parallax p {
     text-align: center;
@@ -245,7 +317,27 @@ header .logo img {
 .engineContainer1 {
     position:relative;
     width: 100%;
-    left: 20%;
+    left: 19%;
+    
+}
+.engineContainer2 {
+    position:relative;
+    width: 75%;
+    right: 50%;
+    
+}
+
+.engineContainer3 {
+    position:relative;
+    width: 90%;
+    left: 12%;
+    
+}
+.engineContainer4 {
+    position:relative;
+    width: 90%;
+    left: 10%;
+    
 }
 
 .imageOver {
@@ -257,6 +349,23 @@ header .logo img {
 .imageOver1 {
     display: inline-block;
     width: 25%;
+
+}
+.imageOver2 {
+    display: inline-block;
+    width: 25%;
+
+}
+.imageOver3 {
+    display: inline-block;
+    width: 25%;
+    height: 313px;
+
+}
+.imageOver4 {
+    display: inline-block;
+    width: 25%;
+    height: 313px;
 
 }
 
@@ -271,15 +380,80 @@ header .logo img {
     height: 100%;
     transition: .5s ease;
 }
-.engineOverlay1{
+.engineOverlay1 {
+    position:absolute;
+    bottom: 0;
+    left: 60%;
+    right: 50%;
+    margin-right: 50px;
+    background-color: rgba(117, 98, 82, 0.7);
+    overflow:hidden;
+    width: 0;
+    height: 85%;
+    transition: .5s ease-out ;
+    -webkit-transition: .5s ease-out  ;
+    -moz-transition: .5s ease-out  ;
+    -ms-transition: .5s ease-out  ;
+    -o-transition: .5s ease-out  ;
+}
+.engineOverlay2 {
+    position:absolute;
+    bottom: 0;
+    left: 0%;
+    right: 0%;
+    margin-right: 0px;
+    background-color: rgba(52, 36, 23, 0.811) ;
+    overflow:hidden;
+    width: 0;
+    height: 90%;
+    transition: .5s ease-out ;
+    -webkit-transition: .5s ease-out  ;
+    -moz-transition: .5s ease-out  ;
+    -ms-transition: .5s ease-out  ;
+    -o-transition: .5s ease-out  ;
+}
+.engineContainer3:hover .engineOverlay2 {
+    position:absolute;
+    width: 50%;
+    height: 92%;
+    
+    
+}
+.engineContainer4:hover .engineOverlay4 {
+    position:absolute;
+    width: 50%;
+    height: 88%;
+    
+    
+}
+.engineContainer:hover .engineOverlay {
+  width: 100%;
+}
+.engineContainer1:hover .engineOverlay1  {
+    
+    position:absolute;
+    width: 95%;
+    height: 85%;
+    
+}
+.engineContainer2:hover .engineOverlay3 {
+    position:absolute;
+    width: 100%;
+    height: 0;
+    padding: 0 0 0 0;
+    
+}
+
+  
+  .engineOverlay3{
     position:absolute;
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(52, 36, 23, 0.811) ;
+    background-color: rgba(117, 98, 82, 0.7) ;
     overflow:hidden;
     width: 0;
-    height: 100%;
+    height: 88%;
     transition: .5s ease-out;
     -webkit-transition: .5s ease-out;
     -moz-transition: .5s ease-out;
@@ -287,12 +461,25 @@ header .logo img {
     -o-transition: .5s ease-out;
     
 }
-.engineContainer:hover .engineOverlay {
-  width: 100%;
+.engineOverlay4{
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(117, 98, 82, 0.7) ;
+    overflow:hidden;
+    width: 0;
+    height: 88%;
+    transition: .5s ease-out;
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -ms-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    
 }
-.engineContainer1:hover .engineOverlay1 {
-    width: 120%;
-    height: 100%;
+.engineContainer2:hover .engineOverlay3 {
+    width: 135%;
+    height: 88%;
     
   }
 .enginetext {
@@ -325,18 +512,14 @@ header .logo img {
 .engineOverlay2{
     position: absolute;
     bottom: 10;
-    left: 100%;
+    left: 0;
     right: 0;
     background-color: rgba(117, 98, 82, 0.7) ;
     overflow:hidden;
     width: 0;
-    height: 100%;
+    height: 88%;
     transition: .5s ease;
 }
-.engineContainer:hover .engineOverlay2 {
-    width: 100%;
-    left: 0;
-  }
 
 
   footer {
@@ -560,9 +743,10 @@ h4 {
        
 }
 .teamMemberImg {
-    display: block;
+    display:block;
     width: 100%;
     height: 100%;
+    
 }
 .teamMemberOverlay {
     position: absolute;
@@ -573,7 +757,7 @@ h4 {
     height: 100%;
     width: 100%;
     opacity: 1;
-    background-color: #8f724b;
+    background-color: #8f724bd1;
     transition: .5s ease;
     
 }
@@ -583,7 +767,7 @@ h4 {
 .teamMember:hover .teamMemberInfo, .teamTitle{
     color: white;
     font-size: 20px;
-    position: absolute;
+    position:absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%);
@@ -591,34 +775,32 @@ h4 {
 }
 .teamMemberInfo {
     color: white;
-    background-color: rgba(172, 118, 48, 0.7);
+    background-color: rgba(172, 118, 48, 0.396);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%);
     transition: .5s ease;
-    -webkit-transition: .5s ease;
-    -moz-transition: .5s ease;
-    -ms-transition: .5s ease;
-    -o-transition: .5s ease;
     padding: 20px;
     text-align: center;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
     -o-transform: translateX(-50%);
+    
 }
 
 .memberSocialLinks{
     text-align: center;
 }
 .memberSocialLinks li{
-    display: inline;
+    display: inline-block;
     margin-left: 5px;
     margin-right: 5px;
 }
 .memberSocialLinks .fa{
     color: white;
+    display: inline-block;
     
 }
 
@@ -657,6 +839,7 @@ h4 {
     width: 100%;
     border-radius:50px;
     
+    
         
 
 }
@@ -665,6 +848,7 @@ h4 {
     padding: 8px;
     width: 8%;
     text-align: center;
+    margin-left: 10%;
 }
 .formField{
     padding: 16px;
@@ -682,7 +866,7 @@ h4 {
     margin-top: 3px;
     margin-bottom: 15px;
     border-radius: 5px;
-    margin-left: 5%;
+    margin-left: 45%;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
@@ -693,15 +877,51 @@ h4 {
     color: white;
 }
 
-.k1text{
-    white-space:nowrap;
+.k1text p{
+    
     color: white;
-    font-size: 14px;
-    position: absolute;
-    top: 9%;
+    font-size: 11px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    top: 30%;
     left: 2%;
     right: 5px;
-    text-transform: none;
+    word-wrap: break-word;
+    
+}
+.k2text p{
+    color: white;
+    font-size: 10px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    left: 2%;
+    right: 5px;
+    word-wrap: break-word;
+    
+}
+.k3text p{
+    color: white;
+    font-size: 10px;
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    left: 2%;
+    right: 5px;
+    word-wrap: break-word;
+    
+}
+.k4text p{
+    color: white;
+    font-size: 10px;
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    left: 2%;
+    right: 5px;
+    word-wrap: break-word;
+    
 }
 }
 
@@ -725,4 +945,37 @@ h4 {
         margin-top: -11px;
     }
     
+    
+}
+.button1{
+    padding: 20px 240px;
+    width: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.button2{
+    padding: 0px 550px;
+    margin-top: -43px;
+    width: 10%;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+.button3{
+    padding: 0px 56%;
+    margin-top: -20px;
+    width: 10%;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+.button4{
+    padding: 0px 78%;
+    margin-top: -22px;
+    width: 10%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bg{
+    background-color: #605b3c3b;
+ 
 }
