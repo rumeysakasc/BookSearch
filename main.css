@@ -115,6 +115,7 @@ h3 {
     margin-left: 35%;
     margin-top: -23.5%;
     
+    
 }
 .engine3 .container3 {
     justify-content: space-between;
@@ -133,6 +134,8 @@ h3 {
     right: 0%;
     margin-left: 60%;
     margin-top: 25%;
+   
+    height: 310px;
 }
 .container2 .imageOver2{
     width: 135%;
@@ -319,11 +322,13 @@ header .logo img {
     width: 100%;
     left: 19%;
     
+    
 }
 .engineContainer2 {
     position:relative;
     width: 75%;
     right: 50%;
+    
     
 }
 
@@ -415,7 +420,7 @@ header .logo img {
 .engineContainer3:hover .engineOverlay2 {
     position:absolute;
     width: 50%;
-    height: 92%;
+    height: 90%;
     
     
 }
@@ -434,6 +439,7 @@ header .logo img {
     position:absolute;
     width: 95%;
     height: 85%;
+   
     
 }
 .engineContainer2:hover .engineOverlay3 {
@@ -915,7 +921,7 @@ h4 {
 .k4text p{
     color: white;
     font-size: 10px;
-    margin-top: 60px;
+    margin-top: 30px;
     margin-left: 10px;
     margin-right: 10px;
     left: 2%;
@@ -978,4 +984,89 @@ h4 {
 .bg{
     background-color: #605b3c3b;
  
+}
+  .romancol1{
+    width: 310px;
+    height: 300px;
+    border: 2px solid gray;
+    background-color: #c9a675b6;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-left: 140px;
+    float: left;
+    margin-top: 50px;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+    
+}
+.romancol1::-webkit-scrollbar{
+    background: transparent;
+    width: 6px;
+    height: 5px;
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    -ms-border-radius: 20px 20px 20px 20px;
+    -o-border-radius: 20px 20px 20px 20px;
+}
+.romancol1:hover::-webkit-scrollbar{
+    background: transparent;
+}
+.romancol1::-webkit-scrollbar-corner{
+    background: transparent;
+}   
+.romancol1::-webkit-scrollbar-thumb{
+    background: transparent;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.romancol1:hover::-webkit-scrollbar-thumb{
+    background: black;
+}
+.alintimg{
+    width: 320px;
+    height: 310px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    
+    
+}
+.alinti{
+    font-size: 14px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-left: 3px;
+    line-height: 20px;
+    color: rgb(12, 11, 11);
+    border: 2px solid #a1917a;
+    background: #baa990;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-top: -10px;
+}
+.alintilar{
+    background: linear-gradient(rgba(77, 54, 3, 0.547),rgba(102, 100, 100, 0.296)),url(image/alinti1.jpg) no-repeat;
+    background-size: 190%;
+    background-color: #8e500476;
+}
+.alintibaslik{
+    text-align: center;
+    color: rgb(3, 3, 3);
+    font-style:normal;
+    font-weight: 600px;
+    font-size: 20px;
+    margin-bottom: 23px;
 }
