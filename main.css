@@ -756,15 +756,15 @@ h4 {
 }
 .teamMemberOverlay {
     position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 1;
-    background-color: #8f724bd1;
-    transition: .5s ease;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 100%;
+   width: 100%;
+   opacity: 1;
+   background-color: #8f724bd1;
+   transition: .5s ease;
     
 }
 .teamMember:hover .teamMemberOverlay {
